@@ -1,0 +1,13 @@
+1 Session - set working directory 
+for this folder
+
+2 import raw excel file from IMPORT DATABASE
+
+3 select all and just Run Script
+
+
+
+
+EXPORT images in TIFF format and 
+width: 1080 height: 720
+
