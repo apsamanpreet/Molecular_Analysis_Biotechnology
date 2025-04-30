@@ -6,7 +6,7 @@ rownames(data) <- c(rawdata$Samples)
 # Perform hierarchical clustering
 dist_matrix <- dist(data, method = "euclidean")  # Compute distance matrix
 hc <- hclust(dist_matrix, method = "ward.D2")    # Perform hierarchical clustering
-
+# "average" method for UPGMA
 # Convert to dendrogram
 dend <- as.dendrogram(hc)
 
